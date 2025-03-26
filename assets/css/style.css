@@ -1,0 +1,55 @@
+
+body {
+    background-color: #cce2f7; 
+    color: #333333; 
+    font-family: Arial, sans-serif, bold;
+}
+
+/* Cabeçalho */
+h2 {
+    color: #4A90E2; 
+    text-align: center;
+    font-size: 36px;
+}
+
+.card {
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+h5 {
+    color: #8BC34A; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.my-4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@keyframes vento {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(10%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
